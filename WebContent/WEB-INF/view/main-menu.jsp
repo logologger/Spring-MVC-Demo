@@ -10,4 +10,6 @@ Welcome to Spring MVC!!
 
 <a href="student/showForm">Stundet Form</a>
 
+
+<a href="customer/showForm">Customer  Form</a>
 </h1>
