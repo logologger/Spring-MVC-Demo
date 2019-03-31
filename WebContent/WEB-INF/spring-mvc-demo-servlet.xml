@@ -27,6 +27,12 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 	
+	<bean id="messageSource"
+	class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames" value="resources/messages"></property>
+	
+	</bean>
+	
 <mvc:resources mapping="/resources/**" location="/resources/"></mvc:resources> 
 
 <util:properties id="countryOptions" location="classpath:../countries.properties"/>
